@@ -1,0 +1,49 @@
+$grey-color: #949494;
+$grey-2-color: #ababab;
+$black-color: #000;
+
+.wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.img {
+  width: 18px;
+  height: 18px;
+}
+
+.input {
+  width: 100%;
+  height: auto;
+  border: none;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: normal;
+  color: $black-color;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+::placeholder {
+  color: $grey-color;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: normal;
+}
+
+.quantity {
+  font-family: Gilroy;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  color: $grey-2-color;
+}

@@ -1,10 +1,10 @@
 import { Route, Routes } from "react-router-dom"
-import { Home, Page404 } from "./pages"
+import { HomePage, Page404 } from "./pages"
 
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
+      <Route path="/" element={<HomePage />} />
       <Route path="*" element={<Page404 />} />
     </Routes>
   )
