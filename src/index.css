@@ -1,2 +1,6 @@
 @import "./reset";
 @import "./assets/fonts/stylesheets";
+
+body {
+  background: #f8faff;
+}

@@ -1,0 +1,30 @@
+import {
+  Baths,
+  Faucets,
+  Heaters,
+  KitchenHoods,
+  KitchenSinks,
+  Others,
+  Showers,
+  Toilets,
+  TowelWarmers,
+  Washbasins,
+  WaterHeaters,
+} from "../../../assets"
+
+export const categoriesData = [
+  { title: "Ванны", text: "3000 товаров", image: Baths },
+  { title: "Смесители", text: "3000 товаров", image: Faucets },
+  { title: "Вытяжки для кухни", text: "3000 товаров", image: KitchenHoods },
+  { title: "Кухонные мойки", text: "3000 товаров", image: KitchenSinks },
+  { title: "Другие", text: "3000 товаров", image: Others },
+  { title: "Унитазы", text: "3000 товаров", image: Toilets },
+  { title: "Вытяжки для кухни", text: "3000 товаров", image: KitchenHoods },
+  { title: "Умывальники", text: "3000 товаров", image: Washbasins },
+  { title: "Полотенцесушители", text: "3000 товаров", image: TowelWarmers },
+  { title: "Водонагреватели", text: "3000 товаров", image: WaterHeaters },
+  { title: "Душевые", text: "3000 товаров", image: Showers },
+  { title: "Обогреватели", text: "3000 товаров", image: Heaters },
+  { title: "Обогреватели", text: "3000 товаров", image: Heaters },
+  { title: "Полотенцесушители", text: "3000 товаров", image: TowelWarmers },
+]

@@ -1,0 +1,30 @@
+$black-color: #000;
+
+.categories {
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.categoriesInner {
+  margin-bottom: 55px;
+}
+
+.title {
+  color: $black-color;
+  font-family: Gilroy;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 18px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(7, 170px);
+  gap: 9px;
+}

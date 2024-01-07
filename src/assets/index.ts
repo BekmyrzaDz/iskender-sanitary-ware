@@ -6,6 +6,17 @@ import Stocks from "./images/Stocks.svg"
 import Sale from "./images/Sale.svg"
 import Gifts from "./images/Gifts.svg"
 import Gifts2 from "./images/Gifts2.svg"
+import Baths from "./images/Baths.svg"
+import Faucets from "./images/Faucets.svg"
+import KitchenHoods from "./images/KitchenHoods.svg"
+import KitchenSinks from "./images/KitchenSinks.svg"
+import Others from "./images/Others.svg"
+import Toilets from "./images/Toilets.svg"
+import Washbasins from "./images/Washbasins.svg"
+import TowelWarmers from "./images/TowelWarmers.svg"
+import WaterHeaters from "./images/WaterHeaters.svg"
+import Showers from "./images/Showers.svg"
+import Heaters from "./images/Heaters.svg"
 
 // Icons
 import Burger from "./icons/Burger.svg"
@@ -25,4 +36,15 @@ export {
   Sale,
   Gifts,
   Gifts2,
+  Baths,
+  Faucets,
+  KitchenHoods,
+  KitchenSinks,
+  Others,
+  Toilets,
+  Washbasins,
+  TowelWarmers,
+  WaterHeaters,
+  Showers,
+  Heaters,
 }
