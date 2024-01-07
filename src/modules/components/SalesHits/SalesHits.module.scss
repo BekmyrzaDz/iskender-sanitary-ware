@@ -1,0 +1,139 @@
+$black-color: #000;
+$black-2-color: #1a1919;
+$green-color: #73cb5e;
+$blue-color: #3286c2;
+$grey-color: #f5f5f5;
+
+.salesHits {
+  margin-bottom: 50px;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.salesHitsInner {
+}
+
+.title {
+  color: $black-color;
+  font-family: Gilroy;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 30px;
+}
+
+.wrapper {
+}
+
+.product {
+  margin-right: 10px;
+}
+
+.productImg {
+  width: 175px;
+  height: 149px;
+  border-radius: 9px;
+  margin-bottom: 9px;
+}
+
+.productTitle {
+  color: $black-2-color;
+  font-family: Gilroy;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  margin-bottom: 7px;
+}
+
+.productPrice {
+  color: $black-color;
+  font-family: Gilroy;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 2px;
+}
+
+.productStatus {
+  color: $green-color;
+  font-family: Gilroy;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.productTypeWrapper {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 7px;
+}
+
+.circle {
+  width: 6px;
+  height: 6px;
+  border-radius: 100%;
+  background-color: $blue-color;
+}
+
+.productType {
+  color: $blue-color;
+  font-family: Gilroy;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.quantityWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.minus {
+  width: 33px;
+  height: 33px;
+  border-radius: 100%;
+  background: $grey-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &Img {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.quantity {
+  color: $black-color;
+  font-family: Gilroy;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.plus {
+  width: 33px;
+  height: 33px;
+  border-radius: 100%;
+  background: $grey-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &Img {
+    width: 24px;
+    height: 24px;
+  }
+}

@@ -1,0 +1,68 @@
+import { WateringCanHolder } from "../../../assets"
+
+export const salesHitsData = [
+  {
+    img: WateringCanHolder,
+    title: "Держатель для лейки BOOU PG605 Держатель для лейки BOOU PG605..",
+    price: "1294 с",
+    status: "В наличии",
+    type: "Комплект",
+    quantity: "999",
+  },
+  {
+    img: WateringCanHolder,
+    title: "Держатель для лейки BOOU PG605 Держатель для лейки BOOU PG605..",
+    price: "1294 с",
+    status: "В наличии",
+    type: "Комплект",
+    quantity: "999",
+  },
+  {
+    img: WateringCanHolder,
+    title: "Держатель для лейки BOOU PG605 Держатель для лейки BOOU PG605..",
+    price: "1294 с",
+    status: "В наличии",
+    type: "Комплект",
+    quantity: "999",
+  },
+  {
+    img: WateringCanHolder,
+    title: "Держатель для лейки BOOU PG605 Держатель для лейки BOOU PG605..",
+    price: "1294 с",
+    status: "В наличии",
+    type: "Комплект",
+    quantity: "999",
+  },
+  {
+    img: WateringCanHolder,
+    title: "Держатель для лейки BOOU PG605 Держатель для лейки BOOU PG605..",
+    price: "1294 с",
+    status: "В наличии",
+    type: "Комплект",
+    quantity: "999",
+  },
+  {
+    img: WateringCanHolder,
+    title: "Держатель для лейки BOOU PG605 Держатель для лейки BOOU PG605..",
+    price: "1294 с",
+    status: "В наличии",
+    type: "Комплект",
+    quantity: "999",
+  },
+  {
+    img: WateringCanHolder,
+    title: "Держатель для лейки BOOU PG605 Держатель для лейки BOOU PG605..",
+    price: "1294 с",
+    status: "В наличии",
+    type: "Комплект",
+    quantity: "999",
+  },
+  {
+    img: WateringCanHolder,
+    title: "Держатель для лейки BOOU PG605 Держатель для лейки BOOU PG605..",
+    price: "1294 с",
+    status: "В наличии",
+    type: "Комплект",
+    quantity: "999",
+  },
+]

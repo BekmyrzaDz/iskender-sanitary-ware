@@ -17,12 +17,15 @@ import TowelWarmers from "./images/TowelWarmers.svg"
 import WaterHeaters from "./images/WaterHeaters.svg"
 import Showers from "./images/Showers.svg"
 import Heaters from "./images/Heaters.svg"
+import WateringCanHolder from "./images/WateringCanHolder.svg"
 
 // Icons
 import Burger from "./icons/Burger.svg"
 import Cart from "./icons/Cart.svg"
 import Profile from "./icons/Profile.svg"
 import Search from "./icons/Search.svg"
+import Minus from "./icons/Minus.svg"
+import Plus from "./icons/Plus.svg"
 
 export {
   notFoundImg,
@@ -47,4 +50,7 @@ export {
   WaterHeaters,
   Showers,
   Heaters,
+  WateringCanHolder,
+  Minus,
+  Plus,
 }
