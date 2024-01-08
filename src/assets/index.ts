@@ -26,6 +26,8 @@ import Profile from "./icons/Profile.svg"
 import Search from "./icons/Search.svg"
 import Minus from "./icons/Minus.svg"
 import Plus from "./icons/Plus.svg"
+import arrowLeft from "./icons/arrowLeft.svg"
+import arrawRight from "./icons/arrawRight.svg"
 
 export {
   notFoundImg,
@@ -53,4 +55,6 @@ export {
   WateringCanHolder,
   Minus,
   Plus,
+  arrowLeft,
+  arrawRight,
 }
