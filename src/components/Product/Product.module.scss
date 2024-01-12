@@ -12,11 +12,24 @@ $white-color: #fff;
   justify-content: space-between;
 }
 
+.productTop {
+  position: relative;
+}
+
 .productImg {
   width: 175px;
   height: 149px;
   border-radius: 9px;
   margin-bottom: 9px;
+}
+
+.favorite {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
 }
 
 .productTitle {

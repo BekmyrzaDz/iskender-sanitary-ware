@@ -1,6 +1,6 @@
 import { FC, useState } from "react"
 import { Card } from "../Card/Card"
-import { Minus, Plus } from "../../assets"
+import { Minus, Plus, favorite, activeFavorite } from "../../assets"
 import styles from "./Product.module.scss"
 
 interface ISalesHits {
@@ -21,6 +21,7 @@ export const Product: FC<ISalesHits> = ({
   quantity,
 }) => {
   const [salesHitQuantity, setSalesHitQuantity] = useState<number>(quantity)
+  const [active, setActive] = useState<boolean>(false)
 
   const handleSalesHitQuantityPlus = () =>
     setSalesHitQuantity(salesHitQuantity + 1)
@@ -31,10 +32,27 @@ export const Product: FC<ISalesHits> = ({
     }
   }
 
+  const handleActive = () => setActive(!active)
+
   return (
     <Card className={styles.product}>
       <div className={styles.productTop}>
         <img className={styles.productImg} src={img} alt="WateringCanHolder" />
+        {active ? (
+          <img
+            className={styles.favorite}
+            src={activeFavorite}
+            alt="Active favorite icon"
+            onClick={handleActive}
+          />
+        ) : (
+          <img
+            className={styles.favorite}
+            src={favorite}
+            alt="Favorite icon"
+            onClick={handleActive}
+          />
+        )}
         <h3 className={styles.productTitle}>{title}</h3>
       </div>
       <div className={styles.productBottom}>

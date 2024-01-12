@@ -28,6 +28,8 @@ import Minus from "./icons/Minus.svg"
 import Plus from "./icons/Plus.svg"
 import arrowLeft from "./icons/arrowLeft.svg"
 import arrawRight from "./icons/arrawRight.svg"
+import favorite from "./icons/heart.svg"
+import activeFavorite from "./icons/activeHeart.svg"
 
 export {
   notFoundImg,
@@ -57,4 +59,6 @@ export {
   Plus,
   arrowLeft,
   arrawRight,
+  favorite,
+  activeFavorite,
 }
