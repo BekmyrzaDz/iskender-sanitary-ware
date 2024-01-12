@@ -1,0 +1,53 @@
+$black-color: #000;
+$black-2-color: #1a1919;
+$green-color: #73cb5e;
+$blue-color: #3286c2;
+$grey-color: #f5f5f5;
+$white-color: #fff;
+
+.salesHits {
+  margin-bottom: 50px;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 10px;
+  position: relative;
+}
+
+.salesHitsInner {
+}
+
+.title {
+  color: $black-color;
+  font-family: Gilroy;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 30px;
+}
+
+.wrapper {
+}
+
+.arrowLeft {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 227px;
+  left: -20px;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.arrowRight {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 227px;
+  right: -20px;
+  z-index: 2;
+  pointer-events: none;
+}

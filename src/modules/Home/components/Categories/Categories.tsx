@@ -1,4 +1,4 @@
-import { CategoryCard } from "../../../components"
+import { CategoryCard } from "../../../../components"
 import styles from "./Categories.module.scss"
 import { categoriesData } from "./CategoriesData"
 

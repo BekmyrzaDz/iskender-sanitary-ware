@@ -1,4 +1,4 @@
-import { Highlight } from "../../../components"
+import { Highlight } from "../../../../components"
 import { HighlightData } from "./HighlightData"
 import styles from "./Highlights.module.scss"
 

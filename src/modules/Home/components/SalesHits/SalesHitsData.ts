@@ -1,13 +1,15 @@
-import { WateringCanHolder } from "../../../assets"
+import { WateringCanHolder } from "../../../../assets"
 
-export const salesHitsData = [
+import { ISalesHits } from "../../types/index"
+
+export const salesHitsData: ISalesHits[] = [
   {
     img: WateringCanHolder,
     title: "Держатель для лейки BOOU PG605 Держатель для лейки BOOU PG605..",
     price: "1294 с",
     status: "В наличии",
     type: "Комплект",
-    quantity: "999",
+    quantity: 0,
   },
   {
     img: WateringCanHolder,
@@ -15,7 +17,7 @@ export const salesHitsData = [
     price: "1294 с",
     status: "В наличии",
     type: "Комплект",
-    quantity: "0",
+    quantity: 0,
   },
   {
     img: WateringCanHolder,
@@ -23,7 +25,7 @@ export const salesHitsData = [
     price: "1294 с",
     status: "В наличии",
     type: "Комплект",
-    quantity: "1",
+    quantity: 0,
   },
   {
     img: WateringCanHolder,
@@ -31,7 +33,7 @@ export const salesHitsData = [
     price: "1294 с",
     status: "В наличии",
     type: "Комплект",
-    quantity: "1",
+    quantity: 0,
   },
   {
     img: WateringCanHolder,
@@ -39,7 +41,7 @@ export const salesHitsData = [
     price: "1294 с",
     status: "В наличии",
     type: "Комплект",
-    quantity: "0",
+    quantity: 0,
   },
   {
     img: WateringCanHolder,
@@ -47,7 +49,7 @@ export const salesHitsData = [
     price: "1294 с",
     status: "В наличии",
     type: "Комплект",
-    quantity: "1",
+    quantity: 0,
   },
   {
     img: WateringCanHolder,
@@ -55,7 +57,7 @@ export const salesHitsData = [
     price: "1294 с",
     status: "В наличии",
     type: "Комплект",
-    quantity: "0",
+    quantity: 0,
   },
   {
     img: WateringCanHolder,
@@ -63,6 +65,6 @@ export const salesHitsData = [
     price: "1294 с",
     status: "В наличии",
     type: "Комплект",
-    quantity: "2",
+    quantity: 0,
   },
 ]

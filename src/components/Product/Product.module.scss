@@ -5,43 +5,11 @@ $blue-color: #3286c2;
 $grey-color: #f5f5f5;
 $white-color: #fff;
 
-.salesHits {
-  margin-bottom: 50px;
-}
-
-.container {
-  max-width: 1240px;
-  margin: 0 auto;
-  padding: 0 10px;
-  position: relative;
-}
-
-.salesHitsInner {
-}
-
-.title {
-  color: $black-color;
-  font-family: Gilroy;
-  font-size: 25px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  margin-bottom: 30px;
-}
-
-.wrapper {
-}
-
 .product {
   height: 341px;
   display: flex !important;
   flex-direction: column;
   justify-content: space-between;
-
-  // background: $white-color;
-  // border-radius: 8px;
-  // border: 1.083px solid $white-color;
-  // padding: 12px;
 }
 
 .productImg {
@@ -119,6 +87,7 @@ $white-color: #fff;
   height: 33px;
   border-radius: 100%;
   background: $grey-color;
+  cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -143,6 +112,7 @@ $white-color: #fff;
   height: 33px;
   border-radius: 100%;
   background: $grey-color;
+  cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;

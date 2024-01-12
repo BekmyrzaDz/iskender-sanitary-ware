@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
-import { Logo, Burger, Search, Profile, Cart } from "../../../assets"
-import { Button, Input } from "../../../components"
+import { Logo, Burger, Search, Profile, Cart } from "../../../../assets"
+import { Button, Input } from "../../../../components"
 import styles from "./Header.module.scss"
 
 export const Header = () => {

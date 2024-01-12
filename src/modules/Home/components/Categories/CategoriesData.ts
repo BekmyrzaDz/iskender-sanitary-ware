@@ -10,7 +10,7 @@ import {
   TowelWarmers,
   Washbasins,
   WaterHeaters,
-} from "../../../assets"
+} from "../../../../assets"
 
 export const categoriesData = [
   { title: "Ванны", text: "3000 товаров", image: Baths },

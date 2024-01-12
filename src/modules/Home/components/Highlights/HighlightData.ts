@@ -1,4 +1,4 @@
-import { Discounts, Stocks, Sale, Gifts, Gifts2 } from "../../../assets"
+import { Discounts, Stocks, Sale, Gifts, Gifts2 } from "../../../../assets"
 
 export const HighlightData = [
   { image: Discounts, text: "Скидки", alt: "Discounts image" },
