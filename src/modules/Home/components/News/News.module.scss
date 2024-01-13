@@ -1,0 +1,24 @@
+$black-color: #000;
+
+.news {
+  margin-bottom: 49px;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.newsInner {
+}
+
+.title {
+  color: $black-color;
+  margin-bottom: 18px;
+  font-family: Gilroy;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}

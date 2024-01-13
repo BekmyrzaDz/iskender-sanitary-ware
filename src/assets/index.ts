@@ -18,6 +18,7 @@ import WaterHeaters from "./images/WaterHeaters.svg"
 import Showers from "./images/Showers.svg"
 import Heaters from "./images/Heaters.svg"
 import WateringCanHolder from "./images/WateringCanHolder.svg"
+import illustration from "./images/illustration.svg"
 
 // Icons
 import Burger from "./icons/Burger.svg"
@@ -30,6 +31,8 @@ import arrowLeft from "./icons/arrowLeft.svg"
 import arrawRight from "./icons/arrawRight.svg"
 import favorite from "./icons/heart.svg"
 import activeFavorite from "./icons/activeHeart.svg"
+import Ellipse from "./icons/Ellipse.svg"
+import EllipseBottom from "./icons/EllipseBottom.svg"
 
 export {
   notFoundImg,
@@ -61,4 +64,7 @@ export {
   arrawRight,
   favorite,
   activeFavorite,
+  illustration,
+  Ellipse,
+  EllipseBottom,
 }

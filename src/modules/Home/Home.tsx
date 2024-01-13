@@ -1,4 +1,4 @@
-import { Categories, Header, Highlights, SalesHits } from "./components"
+import { Categories, Header, Highlights, News, SalesHits } from "./components"
 
 export const Home = () => {
   return (
@@ -7,6 +7,7 @@ export const Home = () => {
       <Highlights />
       <Categories />
       <SalesHits />
+      <News />
     </div>
   )
 }

@@ -1,0 +1,75 @@
+$black-color: #000;
+$white-color: #fff;
+$blue-color: #0063a9;
+$light-blue-color: #f0f9ff;
+
+.card {
+  position: relative;
+
+  width: 401.69px;
+  padding: 35px 22px 37px 22px;
+  border-radius: 11px;
+  overflow: hidden;
+
+  background: $light-blue-color;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 52px;
+}
+
+.ellipseOne {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.ellipseTwo {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.discount {
+  color: $black-color;
+  margin-bottom: 5px;
+
+  font-family: Gilroy;
+  font-size: 24.101px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.description {
+  color: $black-color;
+  margin-bottom: 22px;
+
+  font-family: Gilroy;
+  font-size: 14.461px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.button {
+  padding: 8.034px 24.101px;
+
+  background: $blue-color;
+  color: $white-color;
+  position: relative;
+  z-index: 2;
+
+  font-family: Gilroy;
+  font-size: 11.247px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.img {
+  width: 166.104px;
+  height: 109.757px;
+}
