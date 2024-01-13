@@ -32,6 +32,15 @@ $white-color: #fff;
   height: 24px;
 }
 
+.activeFavorite {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  width: 24.874px;
+  height: 24.874px;
+}
+
 .productTitle {
   color: $black-2-color;
   font-family: Gilroy;
@@ -101,13 +110,24 @@ $white-color: #fff;
   border-radius: 100%;
   background: $grey-color;
   cursor: pointer;
+  transition: all 0.5s ease;
   display: flex;
   justify-content: center;
   align-items: center;
 
-  &Img {
+  &:hover {
+    background: $blue-color;
+  }
+
+  .minusImg {
     width: 24px;
     height: 24px;
+    fill: $black-color;
+    transition: all 0.5s ease;
+  }
+
+  &:hover * {
+    fill: $white-color;
   }
 }
 
@@ -126,13 +146,24 @@ $white-color: #fff;
   border-radius: 100%;
   background: $grey-color;
   cursor: pointer;
+  transition: all 0.5s ease;
   display: flex;
   justify-content: center;
   align-items: center;
 
-  &Img {
+  &:hover {
+    background: $blue-color;
+  }
+
+  .plusImg {
     width: 24px;
     height: 24px;
+    fill: $black-color;
+    transition: all 0.5s ease;
+  }
+
+  &:hover * {
+    fill: $white-color;
   }
 }
 
