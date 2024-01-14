@@ -5,5 +5,16 @@ import { CategoryCard } from "./CategoryCard/Card"
 import { Card } from "./Card/Card"
 import { Product } from "./Product/Product"
 import { NewsCard } from "./NewsCard/Card"
+import { NextButton, PrevButton } from "./NewsCard/CarouselArrowButtons"
 
-export { Button, Input, Highlight, CategoryCard, Card, Product, NewsCard }
+export {
+  Button,
+  Input,
+  Highlight,
+  CategoryCard,
+  Card,
+  Product,
+  NewsCard,
+  NextButton,
+  PrevButton,
+}
