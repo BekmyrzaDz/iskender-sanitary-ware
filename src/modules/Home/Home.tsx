@@ -1,4 +1,11 @@
-import { Categories, Header, Highlights, News, SalesHits } from "./components"
+import {
+  AuctionItems,
+  Categories,
+  Header,
+  Highlights,
+  News,
+  SalesHits,
+} from "./components"
 
 export const Home = () => {
   return (
@@ -8,6 +15,7 @@ export const Home = () => {
       <Categories />
       <SalesHits />
       <News />
+      <AuctionItems />
     </div>
   )
 }

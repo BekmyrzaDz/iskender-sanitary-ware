@@ -2,7 +2,7 @@ import { WateringCanHolder } from "../../../../assets"
 
 import { ISalesHits } from "../../types/index"
 
-export const salesHitsData: ISalesHits[] = [
+export const AuctionItemsData: ISalesHits[] = [
   {
     img: WateringCanHolder,
     title: "Держатель для лейки BOOU PG605 Держатель для лейки BOOU PG605..",

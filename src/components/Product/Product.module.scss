@@ -3,7 +3,9 @@ $black-2-color: #1a1919;
 $green-color: #73cb5e;
 $blue-color: #3286c2;
 $grey-color: #f5f5f5;
+$dark-grey-color: #808080;
 $white-color: #fff;
+$red-color: #ff0000;
 
 .product {
   height: 341px;
@@ -56,6 +58,12 @@ $white-color: #fff;
   margin-bottom: 7px;
 }
 
+.productPrices {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .productPrice {
   color: $black-color;
   font-family: Gilroy;
@@ -64,6 +72,26 @@ $white-color: #fff;
   font-weight: 700;
   line-height: normal;
   margin-bottom: 2px;
+}
+.productPriceWithDiscount {
+  color: $red-color;
+  font-family: Gilroy;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 2px;
+}
+
+.productPriceDiscount {
+  color: $dark-grey-color;
+
+  font-family: Gilroy;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: line-through;
 }
 
 .productBottom {

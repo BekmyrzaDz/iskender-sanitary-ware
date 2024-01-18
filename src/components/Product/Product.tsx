@@ -2,11 +2,13 @@ import { FC, useState } from "react"
 import { Card } from "../Card/Card"
 import { favorite, activeFavorite } from "../../assets"
 import styles from "./Product.module.scss"
+import clsx from "clsx"
 
 interface ISalesHits {
   img: string
   title: string
   price: string
+  discount?: string
   status: string
   type: string
   quantity: number
@@ -16,6 +18,7 @@ export const Product: FC<ISalesHits> = ({
   img,
   title,
   price,
+  discount,
   status,
   type,
   quantity,
@@ -56,7 +59,16 @@ export const Product: FC<ISalesHits> = ({
         <h3 className={styles.productTitle}>{title}</h3>
       </div>
       <div className={styles.productBottom}>
-        <p className={styles.productPrice}>{price}</p>
+        <div className={styles.productPrices}>
+          <p
+            className={clsx(styles.productPrice, {
+              [styles.productPriceWithDiscount]: discount,
+            })}
+          >
+            {price}
+          </p>
+          <p className={styles.productPriceDiscount}>{discount}</p>
+        </div>
         <p className={styles.productStatus}>{status}</p>
         <div className={styles.productTypeWrapper}>
           <div className={styles.circle}></div>

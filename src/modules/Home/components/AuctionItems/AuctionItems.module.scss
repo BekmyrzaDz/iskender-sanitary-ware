@@ -1,0 +1,32 @@
+$black-color: #000;
+
+.auctionItems {
+  margin-bottom: 50px;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 10px;
+  position: relative;
+}
+
+.auctionItemsInner {
+}
+
+.title {
+  color: $black-color;
+
+  font-family: Gilroy;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+  margin-bottom: 18px;
+}
+
+.emblaSlide {
+  flex: 0 0 199px;
+  min-width: 0;
+}
