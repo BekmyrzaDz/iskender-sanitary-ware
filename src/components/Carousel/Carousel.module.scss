@@ -1,0 +1,30 @@
+.embla {
+  overflow: hidden;
+}
+
+.emblaContainer {
+  display: flex;
+  gap: 17px;
+}
+
+.emblaSlide {
+  flex: 0 0 401px;
+  min-width: 0;
+}
+
+.emblaButtons {
+  display: flex;
+  align-items: center;
+}
+
+.prevButton {
+  position: absolute;
+  top: 50%;
+  left: -65px;
+}
+
+.nextButton {
+  position: absolute;
+  top: 50%;
+  right: -65px;
+}

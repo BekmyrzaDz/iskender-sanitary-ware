@@ -5,7 +5,7 @@ import { CategoryCard } from "./CategoryCard/Card"
 import { Card } from "./Card/Card"
 import { Product } from "./Product/Product"
 import { NewsCard } from "./NewsCard/Card"
-import { NextButton, PrevButton } from "./NewsCard/CarouselArrowButtons"
+import { Carousel } from "./Carousel/Carousel"
 
 export {
   Button,
@@ -15,6 +15,5 @@ export {
   Card,
   Product,
   NewsCard,
-  NextButton,
-  PrevButton,
+  Carousel,
 }
