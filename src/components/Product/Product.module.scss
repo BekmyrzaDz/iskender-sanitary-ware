@@ -7,7 +7,11 @@ $white-color: #fff;
 
 .product {
   height: 341px;
-  display: flex !important;
+  padding: 10px;
+  background: $white-color;
+  border-radius: 8.291px;
+  border: 1.083px solid #fff;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
 }

@@ -32,22 +32,7 @@ $white-color: #fff;
 .wrapper {
 }
 
-.arrowLeft {
-  width: 30px;
-  height: 30px;
-  position: absolute;
-  top: 227px;
-  left: -20px;
-  z-index: 2;
-  pointer-events: none;
-}
-
-.arrowRight {
-  width: 30px;
-  height: 30px;
-  position: absolute;
-  top: 227px;
-  right: -20px;
-  z-index: 2;
-  pointer-events: none;
+.emblaSlide {
+  flex: 0 0 199px;
+  min-width: 0;
 }
