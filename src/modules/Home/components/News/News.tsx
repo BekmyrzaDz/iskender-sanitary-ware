@@ -13,7 +13,7 @@ export const News = () => {
       <div className={styles.container}>
         <div className={styles.newsInner}>
           <h3 className={styles.title}>Новости</h3>
-          <Carousel options={OPTIONS}>
+          <Carousel className={styles.emblaContainer} options={OPTIONS}>
             <div className={styles.emblaSlide}>
               <NewsCard />
             </div>

@@ -1,18 +1,19 @@
-import { ReactNode, FC, useCallback, useEffect, useState } from "react"
-import { EmblaOptionsType, EmblaCarouselType } from "embla-carousel"
+import { FC, useCallback, useEffect, useState } from "react"
+import { EmblaCarouselType } from "embla-carousel"
 import useEmblaCarousel from "embla-carousel-react"
 import styles from "./Carousel.module.scss"
 import {
   NextButton,
   PrevButton,
 } from "../CarouselArrowButtons/CarouselArrowButtons"
+import clsx from "clsx"
+import { CarouselProps } from "./Carousel.props"
 
-interface ICarousel {
-  options?: EmblaOptionsType
-  children?: ReactNode
-}
-
-export const Carousel: FC<ICarousel> = ({ children, options }) => {
+export const Carousel: FC<CarouselProps> = ({
+  children,
+  options,
+  className,
+}) => {
   const [emblaRef, emblaApi] = useEmblaCarousel(options)
 
   const [prevBtnDisabled, setPrevBtnDisabled] = useState(true)
@@ -41,9 +42,9 @@ export const Carousel: FC<ICarousel> = ({ children, options }) => {
   }, [emblaApi, onSelect])
 
   return (
-    <div>
+    <>
       <div className={styles.embla} ref={emblaRef}>
-        <div className={styles.emblaContainer}>{children}</div>
+        <div className={clsx(styles.emblaContainer, className)}>{children}</div>
       </div>
       <div className={styles.emblaButtons}>
         <PrevButton
@@ -57,6 +58,6 @@ export const Carousel: FC<ICarousel> = ({ children, options }) => {
           disabled={nextBtnDisabled}
         />
       </div>
-    </div>
+    </>
   )
 }

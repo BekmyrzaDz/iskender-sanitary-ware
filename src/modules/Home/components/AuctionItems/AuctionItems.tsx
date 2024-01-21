@@ -15,7 +15,7 @@ export const AuctionItems = () => {
       <div className={styles.container}>
         <div className={styles.auctionItemsInner}>
           <h2 className={styles.title}>Аукционные товары</h2>
-          <Carousel options={OPTIONS}>
+          <Carousel className={styles.carouselContainer} options={OPTIONS}>
             {AuctionItemsData.map((auctionItem, i) => (
               <div className={styles.emblaSlide}>
                 <Product

@@ -26,6 +26,11 @@ $black-color: #000;
   margin-bottom: 18px;
 }
 
+.carouselContainer {
+  display: flex;
+  gap: 10px;
+}
+
 .emblaSlide {
   flex: 0 0 199px;
   min-width: 0;

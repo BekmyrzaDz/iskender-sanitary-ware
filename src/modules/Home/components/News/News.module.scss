@@ -24,7 +24,12 @@ $black-color: #000;
   line-height: normal;
 }
 
+.emblaContainer {
+  display: flex;
+  gap: 17.31px;
+}
+
 .emblaSlide {
-  flex: 0 0 401px;
+  flex: 0 0 402px;
   min-width: 0;
 }

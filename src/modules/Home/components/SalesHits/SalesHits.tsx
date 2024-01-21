@@ -15,7 +15,7 @@ export const SalesHits = () => {
       <div className={styles.container}>
         <div className={styles.salesHitsInner}>
           <h2 className={styles.title}>Хиты продаж</h2>
-          <Carousel options={OPTIONS}>
+          <Carousel className={styles.emblaContainer} options={OPTIONS}>
             {salesHitsData.map((salesHit, i) => (
               <div className={styles.emblaSlide}>
                 <Product
