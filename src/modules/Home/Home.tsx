@@ -5,6 +5,7 @@ import {
   Highlights,
   News,
   SalesHits,
+  StoreAddresses,
 } from "./components"
 
 export const Home = () => {
@@ -16,6 +17,7 @@ export const Home = () => {
       <SalesHits />
       <News />
       <AuctionItems />
+      <StoreAddresses />
     </div>
   )
 }

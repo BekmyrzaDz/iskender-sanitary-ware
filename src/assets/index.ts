@@ -33,6 +33,11 @@ import favorite from "./icons/heart.svg"
 import activeFavorite from "./icons/activeHeart.svg"
 import Ellipse from "./icons/Ellipse.svg"
 import EllipseBottom from "./icons/EllipseBottom.svg"
+import adressLogo from "./icons/adressLogo.svg"
+import location from "./icons/location.svg"
+import phone from "./icons/phone.svg"
+import clock from "./icons/clock.svg"
+import arrowUp from "./icons/arrowUp.svg"
 
 export {
   notFoundImg,
@@ -67,4 +72,9 @@ export {
   illustration,
   Ellipse,
   EllipseBottom,
+  adressLogo,
+  arrowUp,
+  clock,
+  location,
+  phone,
 }

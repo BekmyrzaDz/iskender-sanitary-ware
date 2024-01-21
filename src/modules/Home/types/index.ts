@@ -8,3 +8,17 @@ export interface ISalesHits {
   type: string
   quantity: number
 }
+
+export interface IStoreAdress {
+  id: number
+  logoImg: string
+  name: string
+  text: string
+  arrowUpImg: string
+  locationImg: string
+  location: string
+  clockImg: string
+  clock: string
+  phoneImg: string
+  phone: string
+}

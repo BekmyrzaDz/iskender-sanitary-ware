@@ -1,0 +1,154 @@
+$black-color: #000;
+$white-color: #fff;
+$blue-color: #0062d5;
+$grey-color: #e3e3e3;
+
+.storeAddresses {
+  margin-bottom: 66px;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 10px;
+  position: relative;
+}
+
+.title {
+  color: $black-color;
+
+  font-family: Gilroy;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+  margin-bottom: 18px;
+}
+
+.cardWrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.card {
+  padding: 15px;
+  border-radius: 10px;
+  background: $white-color;
+}
+
+.cardTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 13px;
+}
+
+.cardTopLeft {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logoImg {
+  width: 42px;
+  height: 42px;
+}
+
+.name {
+  color: $black-color;
+  font-family: Gilroy;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.link {
+  color: $blue-color;
+  font-family: Gilroy;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  cursor: pointer;
+}
+
+.arrow {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.line {
+  height: 1px;
+  width: 100%;
+  background: $grey-color;
+  margin-bottom: 20px;
+}
+
+.cardMiddle {
+  display: flex;
+  gap: 5px;
+  width: 45%;
+  margin-bottom: 22px;
+}
+
+.locationImg {
+  width: 17px;
+  height: 17px;
+}
+
+.locationText {
+  color: $black-color;
+  font-family: Gilroy;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.locationBottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.locationLeft {
+  display: flex;
+  gap: 5px;
+  white-space: nowrap;
+}
+
+.clockImg {
+  width: 17px;
+  height: 17px;
+}
+
+.clockText {
+  color: $black-color;
+  font-family: Gilroy;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.locationRight {
+  display: flex;
+  gap: 5px;
+  white-space: nowrap;
+}
+
+.phoneImg {
+}
+
+.phoneText {
+  color: $black-color;
+  font-family: Gilroy;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
