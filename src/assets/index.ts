@@ -18,7 +18,7 @@ import WaterHeaters from "./images/WaterHeaters.svg"
 import Showers from "./images/Showers.svg"
 import Heaters from "./images/Heaters.svg"
 import WateringCanHolder from "./images/WateringCanHolder.svg"
-import illustration from "./images/illustration.svg"
+import illustration from "./images/Illustration.svg"
 
 // Icons
 import Burger from "./icons/Burger.svg"
