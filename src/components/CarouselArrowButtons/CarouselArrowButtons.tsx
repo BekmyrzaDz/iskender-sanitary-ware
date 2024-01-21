@@ -29,10 +29,10 @@ export const PrevButton: React.FC<PropType> = (props) => {
         <path
           d="M23.8125 29.9L15.6625 21.75C14.7 20.7875 14.7 19.2125 15.6625 18.25L23.8125 10.1"
           stroke="#171717"
-          stroke-width="1.5"
-          stroke-miterlimit="10"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="1.5"
+          strokeMiterlimit="10"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
       </svg>
       {children}
@@ -60,10 +60,10 @@ export const NextButton: React.FC<PropType> = (props) => {
         <path
           d="M16.1875 10.1L24.3375 18.25C25.3 19.2125 25.3 20.7875 24.3375 21.75L16.1875 29.9"
           stroke="#171717"
-          stroke-width="1.5"
-          stroke-miterlimit="10"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="1.5"
+          strokeMiterlimit="10"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
       </svg>
       {children}

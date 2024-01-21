@@ -4,6 +4,7 @@ import { ISalesHits } from "../../types/index"
 
 export const salesHitsData: ISalesHits[] = [
   {
+    id: 0,
     img: WateringCanHolder,
     title: "Держатель для лейки BOOU PG605 Держатель для лейки BOOU PG605..",
     price: "1294 с",
@@ -13,6 +14,7 @@ export const salesHitsData: ISalesHits[] = [
     quantity: 0,
   },
   {
+    id: 1,
     img: WateringCanHolder,
     title: "Держатель для лейки BOOU PG605",
     price: "999999 с",
@@ -22,6 +24,7 @@ export const salesHitsData: ISalesHits[] = [
     quantity: 0,
   },
   {
+    id: 2,
     img: WateringCanHolder,
     title: "Держатель для лейки",
     price: "1294 с",
@@ -31,6 +34,7 @@ export const salesHitsData: ISalesHits[] = [
     quantity: 0,
   },
   {
+    id: 3,
     img: WateringCanHolder,
     title: "Держатель для лейки BOOU PG605",
     price: "1294 с",
@@ -40,6 +44,7 @@ export const salesHitsData: ISalesHits[] = [
     quantity: 0,
   },
   {
+    id: 4,
     img: WateringCanHolder,
     title: "Держатель для лейки BOOU PG605",
     price: "1294 с",
@@ -49,6 +54,7 @@ export const salesHitsData: ISalesHits[] = [
     quantity: 0,
   },
   {
+    id: 5,
     img: WateringCanHolder,
     title: "Держатель для лейки BOOU PG605",
     price: "1294 с",
@@ -58,6 +64,7 @@ export const salesHitsData: ISalesHits[] = [
     quantity: 0,
   },
   {
+    id: 6,
     img: WateringCanHolder,
     title: "Держатель для лейки BOOU PG605 Держатель для лейки BOOU PG605..",
     price: "1294 с",
@@ -67,6 +74,17 @@ export const salesHitsData: ISalesHits[] = [
     quantity: 0,
   },
   {
+    id: 7,
+    img: WateringCanHolder,
+    title: "Держатель для лейки BOOU PG605 Держатель для лейки BOOU PG605..",
+    price: "1294 с",
+    discount: "1294 с",
+    status: "В наличии",
+    type: "Комплект",
+    quantity: 0,
+  },
+  {
+    id: 8,
     img: WateringCanHolder,
     title: "Держатель для лейки BOOU PG605 Держатель для лейки BOOU PG605..",
     price: "1294 с",

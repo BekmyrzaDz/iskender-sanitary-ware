@@ -1,4 +1,5 @@
 export interface ISalesHits {
+  id: number
   img: string
   title: string
   price: string
