@@ -1,6 +1,7 @@
 import {
   AuctionItems,
   Categories,
+  Footer,
   Header,
   Highlights,
   News,
@@ -18,6 +19,7 @@ export const Home = () => {
       <News />
       <AuctionItems />
       <StoreAddresses />
+      <Footer />
     </div>
   )
 }

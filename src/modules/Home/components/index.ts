@@ -5,6 +5,7 @@ import { Categories } from "./Categories/Categories"
 import { SalesHits } from "./SalesHits/SalesHits"
 import { News } from "./News/News"
 import { AuctionItems } from "./AuctionItems/AuctionItems"
+import { Footer } from "./Footer/Footer"
 
 export {
   Header,
@@ -14,4 +15,5 @@ export {
   News,
   AuctionItems,
   StoreAddresses,
+  Footer,
 }

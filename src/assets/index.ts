@@ -38,6 +38,11 @@ import location from "./icons/location.svg"
 import phone from "./icons/phone.svg"
 import clock from "./icons/clock.svg"
 import arrowUp from "./icons/arrowUp.svg"
+import appStore from "./icons/appStore.svg"
+import googlePlay from "./icons/googlePlay.svg"
+import whatsApp from "./icons/whatsApp.svg"
+import logoInstagram from "./icons/logoInstagram.svg"
+import logoFacebook from "./icons/logoFacebook.svg"
 
 export {
   notFoundImg,
@@ -77,4 +82,9 @@ export {
   clock,
   location,
   phone,
+  appStore,
+  googlePlay,
+  whatsApp,
+  logoInstagram,
+  logoFacebook,
 }
