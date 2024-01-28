@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import { Product, Carousel } from "../../../../components"
 import styles from "./SalesHits.module.scss"
 import { salesHitsData } from "./SalesHitsData"
@@ -14,7 +15,12 @@ export const SalesHits = () => {
     <section className={styles.salesHits}>
       <div className={styles.container}>
         <div className={styles.salesHitsInner}>
-          <h2 className={styles.title}>Хиты продаж</h2>
+          <div className={styles.salesHitsTop}>
+            <h2 className={styles.title}>Хиты продаж</h2>
+            <Link className={styles.catalog} to="catalog">
+              перейти в каталог
+            </Link>
+          </div>
           <Carousel className={styles.emblaContainer} options={OPTIONS}>
             {salesHitsData.map((salesHit) => (
               <div className={styles.emblaSlide} key={salesHit.id}>

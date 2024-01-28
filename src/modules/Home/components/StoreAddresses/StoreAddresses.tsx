@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import { Card } from "../../../../components"
 import styles from "./StoreAddresses.module.scss"
 import { storeAdressData } from "./StoreAddressesData"
@@ -7,10 +8,15 @@ export const StoreAddresses = () => {
     <section className={styles.storeAddresses}>
       <div className={styles.container}>
         <div className={styles.storeAddressesInner}>
-          <h2 className={styles.title}>Адреса магазинов</h2>
+          <div className={styles.storeAddressesTop}>
+            <h2 className={styles.title}>Адреса магазинов</h2>
+            <Link className={styles.all} to="store-addresses">
+              все
+            </Link>
+          </div>
           <div className={styles.cardWrapper}>
             {storeAdressData.map((storeAdress) => (
-              <Card className={styles.card}>
+              <Card className={styles.card} key={storeAdress.id}>
                 <div className={styles.cardTop}>
                   <div className={styles.cardTopLeft}>
                     <img

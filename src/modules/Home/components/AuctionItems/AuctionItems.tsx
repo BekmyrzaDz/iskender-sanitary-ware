@@ -3,6 +3,7 @@ import { AuctionItemsData } from "./AuctionItemsData"
 import styles from "./AuctionItems.module.scss"
 
 import { EmblaOptionsType } from "embla-carousel"
+import { Link } from "react-router-dom"
 
 const OPTIONS: EmblaOptionsType = {
   slidesToScroll: "auto",
@@ -14,7 +15,12 @@ export const AuctionItems = () => {
     <div className={styles.auctionItems}>
       <div className={styles.container}>
         <div className={styles.auctionItemsInner}>
-          <h2 className={styles.title}>Аукционные товары</h2>
+          <div className={styles.auctionItemsTop}>
+            <h2 className={styles.title}>Аукционные товары</h2>
+            <Link className={styles.catalog} to="catalog">
+              перейти в каталог
+            </Link>
+          </div>
           <Carousel className={styles.carouselContainer} options={OPTIONS}>
             {AuctionItemsData.map((auctionItem) => (
               <div className={styles.emblaSlide} key={auctionItem.id}>

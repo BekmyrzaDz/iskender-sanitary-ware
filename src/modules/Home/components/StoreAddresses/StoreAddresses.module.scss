@@ -14,6 +14,13 @@ $grey-color: #e3e3e3;
   position: relative;
 }
 
+.storeAddressesTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+
 .title {
   color: $black-color;
 
@@ -22,8 +29,18 @@ $grey-color: #e3e3e3;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+}
 
-  margin-bottom: 18px;
+.all {
+  text-decoration: none;
+
+  color: $blue-color;
+
+  font-family: Gilroy;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
 .cardWrapper {

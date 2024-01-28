@@ -27,6 +27,7 @@ $grey-color: #c1c1c1;
 }
 
 .buttonSearchAndProfileGroup {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -55,13 +56,13 @@ $grey-color: #c1c1c1;
 }
 
 .searchbar {
+  width: 100%;
 }
 
 .searchbarWrapper {
   background: $white-color;
   border-radius: 1000px;
   padding: 11px 21px 11px 14px;
-  width: 675px;
 }
 
 .loginOrRegisterAndProfileGroup {
@@ -71,7 +72,7 @@ $grey-color: #c1c1c1;
 }
 
 .loginOrRegisterGroup {
-  width: 64px;
+  width: 124px;
   display: flex;
   flex-direction: column;
 }

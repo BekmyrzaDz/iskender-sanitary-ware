@@ -1,4 +1,5 @@
 $black-color: #000;
+$blue-color: #3286c2;
 
 .auctionItems {
   margin-bottom: 50px;
@@ -14,6 +15,13 @@ $black-color: #000;
 .auctionItemsInner {
 }
 
+.auctionItemsTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+
 .title {
   color: $black-color;
 
@@ -22,8 +30,18 @@ $black-color: #000;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+}
 
-  margin-bottom: 18px;
+.catalog {
+  text-decoration: none;
+
+  color: $blue-color;
+
+  font-family: Gilroy;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
 .carouselContainer {
