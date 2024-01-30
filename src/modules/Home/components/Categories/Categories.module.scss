@@ -28,3 +28,49 @@ $black-color: #000;
   grid-template-columns: repeat(7, 170px);
   gap: 9px;
 }
+
+@media (max-width: 1260px) {
+  .wrapper {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+@media (max-width: 1080px) {
+  .wrapper {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+@media (max-width: 850px) {
+  .wrapper {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 730px) {
+  .wrapper {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 520px) {
+  .wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 410px) {
+  .title {
+    font-size: 20px;
+  }
+
+  .catalog {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 340px) {
+  .wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

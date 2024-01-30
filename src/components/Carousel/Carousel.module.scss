@@ -18,3 +18,19 @@
   top: 50%;
   right: -65px;
 }
+
+@media (max-width: 1368px) {
+  .emblaButtons {
+    display: none;
+  }
+
+  .prevButton {
+    // left: -65px;
+    display: none;
+  }
+
+  .nextButton {
+    // right: -65px;
+    display: none;
+  }
+}

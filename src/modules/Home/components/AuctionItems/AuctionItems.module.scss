@@ -53,3 +53,13 @@ $blue-color: #3286c2;
   flex: 0 0 199px;
   min-width: 0;
 }
+
+@media (max-width: 410px) {
+  .title {
+    font-size: 20px;
+  }
+
+  .catalog {
+    font-size: 14px;
+  }
+}

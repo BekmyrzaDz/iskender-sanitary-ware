@@ -142,3 +142,36 @@ $grey-color: #c1c1c1;
     height: 14px;
   }
 }
+
+@media (max-width: 690px) {
+  .loginOrRegisterAndProfileGroup {
+    display: none;
+  }
+}
+
+@media (max-width: 510px) {
+  .headerInner {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .buttonSearchAndProfileGroup {
+    width: auto;
+  }
+}
+
+@media (max-width: 340px) {
+  .buttonSearchAndProfileGroup {
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+  }
+}
+
+@media (max-width: 300px) {
+  .headerInner {
+    gap: 10px;
+  }
+}
